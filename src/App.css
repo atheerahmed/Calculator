@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: #e9d5d5;
+  margin: 4pt;
+}
+.header{
+  color: rgb(156, 149, 219);
+}
+.buttons{
+  width: 90px; 
+  height: 40px;
+  margin: 5px;
+  padding: 3px;
+  background-color: rgb(136, 116, 146);
+
+}
+.Inputs{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 10px;
+  border-radius: 6px;
+  margin: 5px;
+
+
+
+}
+.Result{
+  background-color: #eff3f7;
+  border-radius: 6px;
+  margin: 5px;
+}
